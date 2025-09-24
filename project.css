@@ -65,6 +65,7 @@ color: #2563EB;
     padding: 3rem 1rem;
 }
 
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -81,13 +82,22 @@ color: #2563EB;
     transition: .3s;
     padding-bottom: 20px;
 }
+.newimg{
+    display: flex;
+    justify-content: center;
+}
 
 .project-card img {
     width: 100%;
     height: 70%;
-    object-fit: cover;
+    object-fit:scale-down;
     border-bottom: 2px solid #e5e7eb;
 }
+.project-card  #img-2{
+    height: 322px;
+    width: 538px;
+}
+
 
 .project-card:hover {
     transform: translateY(-5px) scale(1.03);
